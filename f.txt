@@ -1,0 +1,14 @@
+f) Explain the output of the following program
+for n = 1:5
+This loop will iterate 5 times, with n taking values from 1 to 5.
+x = n * 0.1;
+Within each iteration of the loop, x is computed as n * 0.1. This means:
+
+When n = 1, x = 0.1
+When n = 2, x = 0.2
+The function myfunc2 is called with parameters x, 2, 3, and 7. Each value of x, z will be the result of myfunc2 with those arguments.
+fprintf('x = %4.2f  f(x) = %8.4f \r', x, z)
+The fprintf function is used to print the values of x and z with specific formatting:
+%4.2f formats x to have a width of 4 characters, with 2 digits after the decimal point.
+%8.4f formats z to have a width of 8 characters, with 4 digits after the decimal point.
+\r is a carriage return, which moves the cursor to the beginning of the line.
